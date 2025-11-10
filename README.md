@@ -32,6 +32,20 @@ An interactive **AI-powered analytics dashboard** built with **Gradio**, **Sciki
 | Environment | Python 3.10+, Virtualenv |
 
 ---
+## 🧱 Architecture Diagram
+
+The following diagram outlines the logical flow of the Agentic AI Dashboard, highlighting each stage of the analytical pipeline.
+📂 Upload CSV / Excel
+  ⬇
+🔍 Automated Exploratory Data Analysis (ydata-profiling)
+  ⬇
+📈 Baseline Model Training (Linear Regression)
+  ⬇
+📊 Model Evaluation (MAE, R² metrics)
+  ⬇
+🤖 AI Reflection & Insight Generation
+  ⬇
+🖥️ Visualization in Gradio Dashboard
 
 🗂 Workflow Summary:
 1️⃣ User uploads dataset
