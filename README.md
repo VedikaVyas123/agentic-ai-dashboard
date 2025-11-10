@@ -33,15 +33,6 @@ An interactive **AI-powered analytics dashboard** built with **Gradio**, **Sciki
 
 ---
 
-## 🧱 Architecture Diagram
-
-flowchart TD
-    A[Upload CSV or Excel File] --> B[Perform Exploratory Data Analysis using ydata-profiling]
-    B --> C[Train Baseline Model using Linear Regression]
-    C --> D[Evaluate Model using MAE and R2]
-    D --> E[Generate AI-based Reflections and Insights]
-    E --> F[Visualize Results in Gradio Dashboard]
-
 🗂 Workflow Summary:
 1️⃣ User uploads dataset
 2️⃣ Automated EDA report is generated
