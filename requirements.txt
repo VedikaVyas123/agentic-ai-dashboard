@@ -1,0 +1,8 @@
+gradio
+pandas
+numpy
+scikit-learn
+matplotlib
+ydata-profiling
+openai
+python-dotenv

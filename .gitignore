@@ -1,0 +1,20 @@
+# Ignore virtual environment
+.venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore EDA HTML report
+eda_report.html
+
+# Ignore dataset files (optional)
+*.csv
+*.xlsx
+
+# Ignore system and IDE files
+.DS_Store
+.vscode/
+.env
