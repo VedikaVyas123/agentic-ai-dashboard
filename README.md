@@ -1,51 +1,57 @@
-🧠 Agentic AI Dashboard — Analyze • Predict • Reflect
+# 🧠 Agentic AI Dashboard — Analyze • Predict • Reflect  
 
-An interactive AI-powered analytics dashboard built with Gradio, Scikit-learn, and OpenAI API to help users upload datasets, analyze insights, train predictive models, and generate intelligent reflections automatically.
+An interactive **AI-powered analytics dashboard** built with **Gradio**, **Scikit-learn**, and **OpenAI API** to help users upload datasets, analyze insights, train predictive models, and generate intelligent reflections automatically.  
 
-🌟 Key Features
+---
 
-📂 Upload CSV or Excel files instantly
+## 🌟 Key Features  
 
-🎯 Choose target variable (e.g., revenue) for predictions
+📂 **Upload CSV or Excel files** instantly  
 
-📊 Auto-EDA Generation using ydata-profiling with descriptive stats and visual summaries
+🎯 **Choose target variable** (e.g., revenue) for predictions  
 
-🤖 Baseline Model (Linear Regression) with evaluation metrics (MAE, R²)
+📊 **Auto-EDA Generation** using `ydata-profiling` with descriptive statistics and visual summaries  
 
-🪄 AI Reflection: LLM-based summary of insights and model suggestions
+🤖 **Baseline Model (Linear Regression)** with evaluation metrics (**MAE**, **R²**)  
 
-💅 Elegant dark UI designed with Gradio for an intuitive experience
+🪄 **AI Reflection:** LLM-based summary of insights and model suggestions  
 
-🧩 Tech Stack
-Category	Technologies
-Frontend	Gradio
-Backend & ML	Scikit-learn, Pandas, NumPy
-Visualization	Matplotlib, Seaborn
-EDA	ydata-profiling
-LLM Integration	OpenAI API
-Environment	Python 3.10+, Virtualenv
-🧱 Architecture Diagram
+💅 **Elegant dark UI** designed with Gradio for an intuitive and modern experience  
+
+---
+
+## 🧩 Tech Stack  
+
+| Category | Technologies |
+|-----------|--------------|
+| Frontend | Gradio |
+| Backend & ML | Scikit-learn, Pandas, NumPy |
+| Visualization | Matplotlib, Seaborn |
+| EDA | ydata-profiling |
+| LLM Integration | OpenAI API |
+| Environment | Python 3.10+, Virtualenv |
+
+---
+
+## 🧱 Architecture Diagram  
+
+```mermaid
 flowchart TD
     A[📁 Upload CSV/Excel File] --> B[📊 Exploratory Data Analysis (ydata-profiling)]
     B --> C[🧮 Baseline Model Training (Linear Regression)]
     C --> D[📈 Model Evaluation (MAE, R², Predictions)]
     D --> E[🪄 LLM Reflection: AI-generated insights & next steps]
     E --> F[🎯 Dashboard Visualization (Gradio Interface)]
-
-
 🗂 Workflow Summary:
-
-User uploads dataset →
-
-Automated EDA report is generated →
-
-Linear regression model trains →
-
-Model performance & predictions are displayed →
-
-LLM interprets and provides actionable insights.
+1️⃣ User uploads dataset
+2️⃣ Automated EDA report is generated
+3️⃣ Linear regression model trains
+4️⃣ Model performance & predictions are displayed
+5️⃣ LLM interprets and provides actionable insights
 
 ⚙️ Installation & Setup
+bash
+Copy code
 # 1️⃣ Clone the repository
 git clone https://github.com/VedikaVyas123/agentic-ai-dashboard.git
 cd agentic-ai-dashboard
@@ -60,20 +66,16 @@ pip install -r requirements.txt
 
 # 4️⃣ Run the app
 python app_advanced.py
-
-
-Once it runs, open http://127.0.0.1:7860
- in your browser 🌐
+Once it runs, open http://127.0.0.1:7860 in your browser 🌐
 
 📈 Example Outputs
-
 Visuals generated:
 
 Revenue distribution histogram
 
 Revenue over time (trend line)
 
-Top correlations with target
+Top correlations with target variable
 
 Average revenue by category
 
@@ -86,18 +88,16 @@ R²: 0.867
 EDA report saved as eda_report.html
 
 🧠 AI Reflection
-
 The model explains ~86% variance in revenue, demonstrating strong predictive performance.
-Key influencers include units_sold and avg_price. Future enhancements could explore non-linear models or feature scaling for improved robustness.
+Key influencers include units_sold and avg_price.
+Future enhancements could explore non-linear models or feature scaling for improved robustness.
 
 👩‍💻 Author
-
 Vedika Vyas
 🎓 MS Data Analytics @ San José State University
 📍 San Jose, California
-🔗 LinkedIn
- | GitHub
+🔗 LinkedIn | GitHub
 
 💬 Acknowledgements
+Special thanks to open-source contributors and the Gradio and Scikit-learn communities for empowering data-driven AI dashboards.
 
-Special thanks to open-source contributors and the Gradio & Scikit-learn communities for empowering data-driven AI dashboards.
