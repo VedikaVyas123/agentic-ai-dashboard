@@ -37,11 +37,11 @@ An interactive **AI-powered analytics dashboard** built with **Gradio**, **Sciki
 
 ```mermaid
 flowchart TD
-    A[📁 Upload CSV/Excel File] --> B[📊 Exploratory Data Analysis (ydata-profiling)]
-    B --> C[🧮 Baseline Model Training (Linear Regression)]
-    C --> D[📈 Model Evaluation (MAE, R², Predictions)]
-    D --> E[🪄 LLM Reflection: AI-generated insights & next steps]
-    E --> F[🎯 Dashboard Visualization (Gradio Interface)]
+    A[Upload CSV/Excel File] --> B[Exploratory Data Analysis - ydata-profiling]
+    B --> C[Baseline Model Training - Linear Regression]
+    C --> D[Model Evaluation - MAE, R², Predictions]
+    D --> E[LLM Reflection - AI-generated Insights]
+    E --> F[Dashboard Visualization - Gradio Interface]
 🗂 Workflow Summary:
 1️⃣ User uploads dataset
 2️⃣ Automated EDA report is generated
