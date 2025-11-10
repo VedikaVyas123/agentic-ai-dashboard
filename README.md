@@ -35,7 +35,6 @@ An interactive **AI-powered analytics dashboard** built with **Gradio**, **Sciki
 
 ## 🧱 Architecture Diagram
 
-```mermaid
 flowchart TD
     A[Upload CSV or Excel File] --> B[Perform Exploratory Data Analysis using ydata-profiling]
     B --> C[Train Baseline Model using Linear Regression]
